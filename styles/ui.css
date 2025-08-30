@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e2023, #3a3f47);
+    font-family: poppins;
+    margin: 0;
+}
+
+.player-container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 24px;
+    max-width: 320px;
+    text-align: center;
+    color: #fff;
+}
+
+.cover-art img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
+.cover-art img:hover {
+    box-shadow: 0px 0px 10px #1e2023;
+}
+
+.track-info .track-title {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.track-info .track-artist {
+    margin: 4px 0 16px;
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.controls button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    margin: 0 8px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.controls button:hover {
+    transform: scale(1.1);
+}
+
+.controls button:focus {
+    outline: none;
+}
+
+#seekBar {
+    width: 100%;
+    margin: 16px 0;
+}
+
+.time-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+}

@@ -1,0 +1,39 @@
+@media (min-width: 600px) {
+    .player-container {
+        max-width: 400px;
+        padding: 32px;
+    }
+    .controls button {
+        font-size: 1.8rem;
+        margin: 0 12px;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+    .player-container {
+        display: grid;
+        grid-template-columns: 150px 1fr;
+        gap: 24px;
+        max-width: 600px;
+    }
+    .cover-art img {
+        border-radius: 16px;
+        height: 100%;
+        object-fit: cover;
+    }
+    .track-info {
+        align-self: center;
+        text-align: left;
+    }
+    .controls {
+        grid-column: span 2;
+        justify-self: center;
+    }
+    #seekBar {
+        grid-column: span 2;
+        width: 100%;
+    }
+}

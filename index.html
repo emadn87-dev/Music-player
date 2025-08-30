@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fa">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Web Music Player</title>
+        <link rel="stylesheet" href="styles/base.css" />
+        <link rel="stylesheet" href="styles/ui.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">    
+    </head>
+    <body>
+        <div class="player-container">
+            <div class="cover-art">
+                <img src="Assests/cover.jpg" alt="Album Cover" />
+            </div>
+            <div class="track-info">
+                <h2 class="track-title">Name track</h2>
+                <p class="track-artist">Shiro Sagisu </p>
+            </div>
+            <div class="controls">
+                <button id="prevBtn" class="fa-solid fa-backward"></button>
+                <button id="playBtn" class="fa-solid fa-play"></button>
+                <button id="nextBtn" class="fa-solid fa-forward"></button>
+            </div>
+            <input type="range" id="seekBar" value="0" max="100" />
+            <div class="time-info">
+                <span id="currentTime">0:00</span>
+                <span id="duration">0:00</span>
+            </div>
+        </div>
+        <script src="scripts/player.js"></script>
+    </body>
+</html>
