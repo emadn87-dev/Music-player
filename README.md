@@ -3,7 +3,7 @@ A sleek music player web app built with HTML, CSS, and JavaScript.
 
 ## 🚀 Live Demo
 
-Experience the site live at 👉 [Click me](https://emadn87-dev.github.io/Music-player/)
+Experience the site live at 👉 [Click me](https://music-player-emadn87-dev.netlify.app)
 
 
 ## Demo Preview 📸
